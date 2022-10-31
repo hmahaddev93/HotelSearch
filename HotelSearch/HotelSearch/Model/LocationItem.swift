@@ -14,7 +14,7 @@ struct LocationItem: Codable {
     let hotelAddress: HotelAddress?
     
     func displayName() -> String {
-        return regionNames.displayName
+        return regionNames.shortName
     }
 }
 
